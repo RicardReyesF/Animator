@@ -47,7 +47,7 @@ class _CudradoAnimadoState extends State<CudradoAnimado> with SingleTickerProvid
     moverAbajo=Tween(begin: 0.0,end: 100.0).animate(
       CurvedAnimation(parent: controller,curve: Interval( 0.75,1.0,curve: Curves.bounceOut))
     );
-    print("${controller.value}");
+    
     
     super.initState();
   }
