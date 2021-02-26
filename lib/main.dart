@@ -1,3 +1,4 @@
+import 'package:animate_app/src/challege/Animator_page.dart';
 import 'package:animate_app/src/pages/animator_page.dart';
 import 'package:flutter/material.dart';
 
@@ -8,8 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
-      home: Animatorpage()
+      debugShowCheckedModeBanner: false,
+      title: 'App Animator',
+      home: CuadradoPage()
     );
   }
 }
